@@ -1,0 +1,81 @@
+﻿<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Navigation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used by the paginator library to build
+    | the simple pagination links. You are free to change them to anything
+    | you want to customize your views to better match your application.
+    |
+    */
+
+    'dashboard' => 'แผงควบคุม',
+    'admin' => 'ผู้ดูแลระบบ',
+    'announcements' => 'ประกาศ',
+    'users' => 'ผู้ใช้งาน',
+    'customers' => 'ลูกค้า',
+    'currencies' => 'สกุลเงิน',
+    'shops' => 'ร้านค้า',
+    'shipping_zones' => 'โซนจัดส่งสินค้า',
+    'suppliers' => 'ซัพพลายเออร์',
+    'vendors' => 'ผู้ขาย',
+    'merchants' => 'พ่อค้า',
+    'manufacturers' => 'ผู้ผลิต',
+    'blogs' => 'บล็อก',
+    'settings' => 'การตั้งค่า',
+    'catalog' => 'แค็ตตาล็อก',
+    'categories' => 'หมวดหมู่',
+    'groups' => 'กลุ่มหลัก',
+    'sub-groups' => 'กลุ่มย่อย',
+    'products' => 'สินค้า',
+    'attributes' => 'คุณลักษณะ',
+    'stock' => 'สต็อก',
+    'inventories' => 'สินค้าคงคลัง',
+    'warehouses' => 'โรงงาน',
+
+    'utilities' => 'ยูทิลิตี้',
+    'support' => 'ฝ่ายสนับสนุน',
+    'support_messages' => 'ข้อความ',
+    'disputes' => 'ข้อพิพาท',
+    'support_tickets' => 'ตั๋ว',
+    'refunds' => 'การคืนเงิน',
+    'user_roles' => 'บทบาทของผู้ใช้',
+    'taxes' => 'ภาษี',
+    'themes' => 'ธีม',
+    'theme_options' => 'ตัวเลือกธีม',
+    'banners' => 'แบนเนอร์',
+    'sliders' => 'สไลด์เดอร์',
+    'shipping' => 'การชนส่ง',
+    'packaging' => 'บรรจุภัณฑ์',
+    'carriers' => 'ผู้ให้บริการ',
+    'payment_methods' => 'วิธีชำระเงิน',
+    'payment_statuses' => 'สถานะการชำระเงิน',
+    'email_templates' => 'อีเมล์เทมเพลต',
+    'config' => 'องค์ประกอบ',
+    'general' => 'ทั่วไป',
+    'orders' => 'คำสั่งซื้อ',
+    'carts' => 'ตะกร้าสินค้า',
+    'invoices' => 'ใบแจ้งหนี้',
+    'payments' => 'การชำระเงิน',
+    'promotions' => 'โปรโมชั่น',
+    'coupons' => 'คูปอง',
+    'gift_cards' => 'บัตรของขวัญ',
+    'faqs' => 'คำถามที่พบบ่อย',
+    'pages' => 'หน้า',
+    'appearance' => 'การปรากฎ',
+    'performance' => 'ประสิทธิภาพ',
+
+    'reports' => 'รายงาน',
+    'visitors' => 'ผู้เยี่ยมชม',
+    'sales_report' => 'การขาย',
+    'system_settings' => 'ตั้งค่าระบบ',
+    'subscription_plans' => 'แผน',
+
+    // Version 1.4.0
+    'chats' => 'แชท',
+    'countries' => 'ย่านธุรกิจ',
+];

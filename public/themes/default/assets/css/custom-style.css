@@ -1,0 +1,32 @@
+.blog-post .blog-post-meta li:nth-child(2){
+	display:none!important;
+}
+
+.blog-post-excerpt .pull-right{
+	display:none!important;
+}
+
+.category-widget .nav-category-inner-title a{
+	color:#FF0108!important;
+}
+.staticcover {
+	padding-bottom:30px;
+}
+.staticcover .title {
+	text-transform: uppercase;
+    font-weight: bold;
+    color: #FF0002;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom:30px;
+    font-size:20px;
+}
+.staticcover p{font-weight:normal;}
+.staticcover ul {
+	list-style: disc;
+    padding-left: 20px;
+}
+
+.contact-us-form .flat{
+	border-color: #ccc!important;
+}
