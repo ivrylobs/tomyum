@@ -11,7 +11,7 @@
             @endif
         </a>
         <div class="space10"></div>
-        <h1 class="below-icon">Sell on Tomyum</h1>
+        <h1 class="below-icon">ลงทะเบียนร้านค้า</h1>
     </div> <!-- /.box-header -->
     <div class="box-body">
       {!! Form::open(['route' => 'register', 'id' => config('system_settings.required_card_upfront') ? 'stripe-form' : 'registration-form', 'data-toggle' => 'validator']) !!}
