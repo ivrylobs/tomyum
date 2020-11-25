@@ -1,4 +1,5 @@
 <?php
+
    // Auth route for customers
    Route::group(['as' => 'customer.', 'prefix' => 'customer'], function() {
       Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
@@ -10,6 +11,10 @@
    	// Register
       Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('register');
       Route::post('/register', 'Auth\RegisterController@register')->name('register.submit');
+      Route::post('/test', function () {
+         return redirect()->guest(route('login'));
+      });
+
       Route::get('/verify/{token?}', 'Auth\RegisterController@verify')->name('verify');
 
       // Forgot Password

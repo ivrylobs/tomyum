@@ -6,7 +6,7 @@
           <h3 class="box-title">{{ trans('theme.register') }}</h3>
         </div> <!-- /.box-header -->
         <div class="box-body">
-            {!! Form::open(['route' => 'customer.register', 'id' => 'form', 'data-toggle' => 'validator']) !!}
+            {!! Form::open(['route' => 'customer.register', 'id' => 'form', 'data-toggle' => 'validator']) !!}  
                 <div class="form-group has-feedback">
                     {!! Form::text('name', null, ['class' => 'form-control input-lg', 'placeholder' => trans('theme.placeholder.full_name'), 'required']) !!}
                     <span class="glyphicon glyphicon-user form-control-feedback"></span>
